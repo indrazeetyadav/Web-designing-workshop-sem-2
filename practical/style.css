@@ -1,0 +1,15 @@
+body {
+    background-color: #eef;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
