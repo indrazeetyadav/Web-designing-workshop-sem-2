@@ -10,13 +10,20 @@
     <script src = "https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
+    <div class = "container"  style = "height:1000px; width: 500px; align-items: center; background-color: rgb(84, 117, 147);">
+      <h1>Student information</h1>
+     <div class = "student" style = "height: 160px; align-items: center; border: 2px solid black; border-radius: 10px; width: 400px; background-color: white;">
+        <h2>Name: Indra</h2>
+        <h2>Age: 20</h2>
+        <h2>Course: Computer science</h2>
+        </div>
+      <div class = "student" style = "height: 160px; border: 2px solid black; border-radius: 10px; width: 400px; background-color: white;">
+        <h2>Name: Kartik</h2>
+        <h2>Age: 20</h2>
+        <h2>Course: Computer science</h2>
+    </div>
     <div id="root"></div>
-   <script type ="text/babel">
-    function Welcome(){
-      return <h1>Welcome to react -Functional component</h1>;
-    }
-    const root = ReactDOM.createRoot(document.getElementById("root"));
-    root.render(<Welcome />)
+   
    </script>
   </body>
 </html>

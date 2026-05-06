@@ -1,0 +1,85 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: rgb(223, 223, 203);
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.container{
+background:#fdfdfd;
+padding:30px;
+width:300px;
+border-radius:30px;
+box-shadow:0 0 20px black;
+}
+
+h2{
+text-align:center;
+color:#1e3c72;
+letter-spacing:1px;
+}
+
+.form label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input{
+width:100%;
+padding:8px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+transition:0.2s ease;
+}
+
+input:focus{
+border-color:#2a5298;
+outline:none;
+box-shadow:0 0 5px rgba(42,82,152,0.5);
+}
+
+.buttons{
+margin-top:15px;
+}
+
+button{
+padding:10px 14px;
+margin:4px;
+border:none;
+background:#086c2b;
+color:white;
+border-radius:25px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e8449;
+}
+
+.result{
+margin-top:20px;
+padding:10px;
+background:#eef3f9;
+border-radius:5px;
+min-height:50px;
+}
+
+.card{
+background:#ffffff;
+padding:10px;
+margin:8px 0;
+border-left:5px solid #2a5298;
+border-radius:6px;
+}
+
+.student{
+margin-top:20px;
+padding-top:10px;
+border-top:1px solid #ccc;
+font-size:14px;
+color:#444;
+font-style:italic;
+}
